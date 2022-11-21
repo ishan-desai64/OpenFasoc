@@ -45,3 +45,8 @@ The physical implementation of the analog blocks in the circuit is done using tw
 The gds and lef files of HEADER and SLC cells are pre-created before the start of the Generator flow.
 The layout of the HEADER cell is shown below:
 
+Block Diagram of the flow:
+--------------------------
+
+![photo_2022-11-02 10 43 24](https://user-images.githubusercontent.com/110079631/199403863-d02e56c8-40ad-417f-9002-d7130cf23770.jpeg)
+

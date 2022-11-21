@@ -33,4 +33,15 @@ This page gives an overview of how the Temperature Sensor Generator (temp-sense-
 This generator creates a compact mixed-signal temperature sensor based on the topology from this paper <https://ieeexplore.ieee.org/document/9816083>.
 
 It consists of a ring oscillator whose frequency is controlled by the voltage drop over a MOSFET operating in subthreshold regime, where its dependency on temperature is exponential.
+![tempsense_ckt](https://user-images.githubusercontent.com/110079631/199317479-67f157c5-6934-470b-8552-5451b1361b9c.png)
+
+Block diagram of the temperature sensor’s circuit
+
+The physical implementation of the analog blocks in the circuit is done using two manually designed standard cells:
+
+* HEADER cell, containing the transistors in subthreshold operation;
+* SLC cell, containing the Split-Control Level Converter.
+
+The gds and lef files of HEADER and SLC cells are pre-created before the start of the Generator flow.
+The layout of the HEADER cell is shown below:
 

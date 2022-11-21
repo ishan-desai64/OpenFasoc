@@ -26,7 +26,7 @@ All the required tools need to be loaded into the environment before running thi
 
 ## Design Generation
 
-#Temperature Sensor Generator
+# Temperature Sensor Generator
 This page gives an overview of how the Temperature Sensor Generator (temp-sense-gen) works internally in OpenFASoC.
 
 # Circuit

@@ -99,6 +99,7 @@ Avg Active time of DOWN > Avg Active time of UP   = Dis-Charging of Capacitance 
 Phase Detector is AuxCell.To generate its verilog we have to follow few steps.
 To generate first git clone the repositary and copy PLL-Gen and paste it to generator in openfasoc tool.
 ```
+https://github.com/ishan-desai64/OpenFasoc.git
 ```
 After that write this command in PLL-Gen folder.
 ```

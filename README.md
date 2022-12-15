@@ -134,7 +134,7 @@ After Generating Verilog file I have write testbench and got the follwing result
  - Kunal Ghosh, Director, VSD Corp. Pvt. Ltd.,kunalghosh@gmail.com
  - Dr.Madhav Rao, ECE Department, IIIT Bangalore,mr@iiitb.ac.in
  - Dr.Murali, Co-ordinator(M.Tech), IIIT Bangalore,coordinator-mtech@iiitb.ac.in
- - 
+ 
 
 
 

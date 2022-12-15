@@ -26,7 +26,7 @@ All the required tools need to be loaded into the environment before running thi
 
 ## Design Generation
 
-# Temperature Sensor Generator
+# 1) Temperature Sensor Generator
 This page gives an overview of how the Temperature Sensor Generator (temp-sense-gen) works internally in OpenFASoC.
 
 # Circuit
@@ -52,7 +52,7 @@ Block Diagram of the flow:
 
 
 
-### PLL Generator
+### 2) PLL Generator
 This section will explain how PLL is generated using OpenFasoc.
 In its most basic configuration, a phase-locked loop compares the phase of a reference signal  to the phase of an adjustable feedback signal.When the comparison is in steady-state, and the output frequency and phase are matched to the incoming frequency and phase of the error detector, we say that the PLL is locked.  
 
@@ -65,6 +65,10 @@ Mainly,there are four blocks in PLL
 ## 1) Phase Detector:
 Phase detector produces two DC voltages namely UP and DOWN, which is proportional to the phase difference between the input signal(Vref) and feedback (output) signal(Vout). If the Vref phase is lagging with respect to Vout then UP signal remains high to the duration of their phase difference and the DOWN signal remains low. If the Vref phase is leading with respect to Vout then DOWN signal remains high to the duration of their phase difference and the UP signal remains low.Generally we create Phase detector using two negetive edge triggered D-fliplops and a AND gate.
 
-https://user-images.githubusercontent.com/110079631/203073018-1c06be90-d496-4347-851c-4c3b80aae57c.png
+                
+<img width="445" alt="Screenshot 2022-11-21 at 7 25 32 PM" src="https://user-images.githubusercontent.com/110079631/203073018-1c06be90-d496-4347-851c-4c3b80aae57c.png">
+
+<img width="589" alt="Screenshot 2022-11-21 at 7 26 24 PM" src="https://user-images.githubusercontent.com/110079631/203073555-9091d92f-1198-4d12-86f2-4ea532928ddf.png">
+
 
 

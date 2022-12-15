@@ -104,11 +104,16 @@ After that write this command in PLL-Gen folder.
 '''
 make sky130hd_pll_verilog
 '''
+![OpenfasocResult1](https://user-images.githubusercontent.com/70513539/207919983-dae71641-4a83-4218-8565-29aba650984d.png)
+
+After Generating Verilog file I have write testbench and got the follwing result.
+
+![Result2](https://user-images.githubusercontent.com/70513539/207920191-98f71507-adbc-419e-aba7-58a42f8452e4.png)
 
 
-x-special/nautilus-clipboard
-copy
-file:///home/ishan/Desktop/OpenfasocResult1.png
+
+
+
 
 
 

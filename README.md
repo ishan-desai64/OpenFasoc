@@ -95,5 +95,25 @@ Avg Active time of DOWN > Avg Active time of UP   = Dis-Charging of Capacitance 
 
 <img width="394" alt="Screenshot 2022-11-21 at 7 26 57 PM" src="https://user-images.githubusercontent.com/110079631/203073982-c36fa793-bf28-4de6-9e77-74e61333a34f.png">
 
+## Phase Detector(PFD)
+Phase Detector is AuxCell.To generate its verilog we have to follow few steps.
+To generate first git clone the repositary and copy PLL-Gen and paste it to generator in openfasoc tool.
+'''
+'''
+After that write this command in PLL-Gen folder.
+'''
+make sky130hd_pll_verilog
+'''
+
+
+x-special/nautilus-clipboard
+copy
+file:///home/ishan/Desktop/OpenfasocResult1.png
+
+
+
+
+
+
 
 

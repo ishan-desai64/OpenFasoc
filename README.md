@@ -50,3 +50,21 @@ Block Diagram of the flow:
 
 ![photo_2022-11-02 10 43 24](https://user-images.githubusercontent.com/110079631/199403863-d02e56c8-40ad-417f-9002-d7130cf23770.jpeg)
 
+
+
+### PLL Generator
+This section will explain how PLL is generated using OpenFasoc.
+In its most basic configuration, a phase-locked loop compares the phase of a reference signal  to the phase of an adjustable feedback signal.When the comparison is in steady-state, and the output frequency and phase are matched to the incoming frequency and phase of the error detector, we say that the PLL is locked.  
+
+Mainly,there are four blocks in PLL
+1) Phase Detector
+2) Frequency Detector
+3) Voltage Control Oscilator
+4) Charge Pump
+
+## 1) Phase Detector:
+Phase detector produces two DC voltages namely UP and DOWN, which is proportional to the phase difference between the input signal(Vref) and feedback (output) signal(Vout). If the Vref phase is lagging with respect to Vout then UP signal remains high to the duration of their phase difference and the DOWN signal remains low. If the Vref phase is leading with respect to Vout then DOWN signal remains high to the duration of their phase difference and the UP signal remains low.Generally we create Phase detector using two negetive edge triggered D-fliplops and a AND gate.
+
+https://user-images.githubusercontent.com/110079631/203073018-1c06be90-d496-4347-851c-4c3b80aae57c.png
+
+

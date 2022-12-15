@@ -117,31 +117,6 @@ After Generating Verilog file I have write testbench and got the follwing result
  - **Ishan Desai**
 
 ### Contributors
- - Ishan Desai
- - Kunal Ghosh
-
-### Acknowledgments
- - Kunal Ghosh, Director, VSD Corp. Pvt. Ltd.
- - Dr.Madhav Rao, ECE Department, IIIT Bangalore.
- - Dr.Murali, Co-ordinator(M.Tech), IIIT Bangalore.
- - Archan Desai
- - Tejas BN
-
-### References
- - OpenFASOC https://github.com/idea-fasoc/OpenFASOC.git
-
-### Contact Information
- - Vinay Rayapati,Post-Graduate student,International Institute of Information Technology Bangalore,vinayrayapati@outlook.com
- - Kunal Ghosh, Director, VSD Corp. Pvt. Ltd.,kunalghosh@gmail.com
- - Dr.Madhav Rao, ECE Department, IIIT Bangalore,mr@iiitb.ac.in
- - Dr.Murali, Co-ordinator(M.Tech), IIIT Bangalore,coordinator-mtech@iiitb.ac.in
-
-
-
-
-
-
-
-
+ - Ishan Desai` 1`  1q
 
 
